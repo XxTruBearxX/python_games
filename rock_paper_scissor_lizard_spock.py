@@ -6,7 +6,7 @@ from random import randint
 t = ["Rock", "Paper", "Scissors", "Lizard", "Spock"]
 
 #assign a random play to the computer
-computer = t[randint(0,2)]
+computer = t[randint(0,4)]
 
 #set player to False
 player = False
@@ -66,4 +66,4 @@ while player == False:
 
 #player was set to True, but we want it to be False so the loop continues
 player = False
-computer = t[randint(0,2)]
+computer = t[randint(0,4)]
